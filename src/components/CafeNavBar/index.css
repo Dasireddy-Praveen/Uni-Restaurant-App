@@ -1,0 +1,70 @@
+.nav-bar {
+  height: 10vh;
+  background-color: #fdfdfd;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav-logo {
+  color: #262625;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.cart-container {
+  display: flex;
+}
+
+.my-orders-text {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .my-orders-text {
+    display: block;
+    font-size: 16px;
+    color: #4f4e4b;
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin-right: 20px;
+  }
+}
+
+.CartLogo {
+  height: 50px;
+  width: 30px;
+  color: #414241;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .CartLogo {
+    height: 35px;
+    width: 25px;
+  }
+}
+
+.CartCount {
+  height: 25px;
+  width: 25px;
+  border-radius: 12px;
+  background-color: #f27507;
+  color: white;
+  align-self: flex-start;
+  text-align: center;
+  margin-left: -10px;
+}
+
+@media screen and (min-width: 768px) {
+  .CartCount {
+    height: 22px;
+    width: 22px;
+    border-radius: 11px;
+    text-align: center;
+  }
+}
